@@ -142,52 +142,6 @@ CHANGE_THRESHOLD=0.05
 NOTIFICATION_THRESHOLD=0.05
 ```
 
----
-
-## Quick Test Commands
-
-### Test YouTube API Key:
-```bash
-curl "https://www.googleapis.com/youtube/v3/channels?part=snippet&id=UCp2ao9X9mlPjlMrkvg3_-fg&key=AIzaSyAieA8BXJZn1sbmtI4UfcORzjDIoXcYISI"
-```
-
-### Test Telegram Bot:
-```bash
-curl "https://api.telegram.org/bot8445646129:AAGqQVGyd1ZkEMHHoQ1WeAOkD9Dt1hlT_SQ/getMe"
-```
-
-### Test Telegram Chat ID:
-```bash
-curl "https://api.telegram.org/botYOUR_BOT_TOKEN/sendMessage?chat_id=956393829&text=Test"
-```
-
----
-
-## Troubleshooting
-
-### YouTube API Issues:
-- **403 Forbidden**: Check if YouTube Data API v3 is enabled
-- **400 Bad Request**: Verify your API key is correct
-- **Quota Exceeded**: YouTube API has daily quotas (10,000 units/day by default)
-
-### Telegram Issues:
-- **401 Unauthorized**: Check your bot token
-- **400 Bad Request**: Verify your chat ID (make sure you've messaged the bot first)
-- **403 Forbidden**: Make sure your bot is not blocked
-
----
-
-## Security Notes
-
-⚠️ **Important:**
-- Never commit your `.env` file to version control
-- Add `.env` to your `.gitignore` file
-- Keep your API keys secure
-- Consider restricting your YouTube API key to specific IPs/APIs
-- Don't share your bot token publicly
-
----
-
 ## Need Help?
 
 - YouTube API: [YouTube Data API Documentation](https://developers.google.com/youtube/v3)
