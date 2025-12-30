@@ -1,0 +1,13 @@
+
+
+# Kafka (Python 3.11+ compatible)
+kafka-python-ng==2.2.3
+
+# Telegram Bot API (async, v21+)
+python-telegram-bot==21.6
+
+# PostgreSQL
+psycopg2-binary==2.9.9
+
+# Environment variables
+python-dotenv==1.0.1

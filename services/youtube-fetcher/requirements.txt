@@ -1,0 +1,6 @@
+kafka-python-ng==2.2.2
+google-api-python-client==2.155.0
+psycopg2-binary==2.9.10
+python-dotenv==1.0.1
+requests==2.31.0
+
